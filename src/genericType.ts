@@ -75,3 +75,18 @@ const crush2: CrushInterface<string> = {
     husband: "persian"
 
 }
+
+interface HusbandInterface {
+    name: string,
+    salary: number;
+}
+
+const crush3: CrushInterface<HusbandInterface> = {
+    name: "kate",
+    husband: {
+        name: "persian",
+        salary: 10
+    }
+}
+
+
